@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+ }
+      
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(mag2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2) ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px  rgba(0,0,0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .login-section {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+
+  .container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid olivedrab ;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+
+
+  }
+
+  .container input::placeholder{
+    color: white;
+  }
+
+  .container i{
+    position: relative;
+    left: 340px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  
+  .container .login-button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: olivedrab;
+    font-weight: 600;
+  }
+  
+  
+  
+  .cocktail-list {
+    margin-top: 20px;
+  
+  }
+  
+  .cocktail-item {
+    padding: 70px;
+    border-bottom: 5px solid #ce4646;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .cocktail-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 100px;
+  }
+  
+  button.order-button,
+  button.view-button,
+  button.back-button,
+  button.login-button {
+    margin-top: 20px;
+  }
+
+  .contact-info {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    padding: 5px;
+    text-align: left; 
+    background: transparent;
+    color: #42cae2;
+    font-weight: 600; 
+}
+
+.contact-item {
+    margin-bottom: 10px; 
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magarita Cocktails Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <h1>Order Margarita Cocktails</h1>
+
+    <div id="login-section">
+      <h2>Login to Order</h2>
+      <input type="text" id="user-name" placeholder="Enter your name">
+      <i class='bx bxs-user'></i>
+      <input type="number" id="user-age" placeholder="Enter your age" min="18">
+      <i class='bx bxs-message-alt-error'></i>
+      <input type="text" id="user-location" placeholder="Enter your location">
+      <i class='bx bx-current-location'></i>
+      <input type="number" id="user-phone Numer" placeholder="Enter phone Number">
+      <i class='bx bxs-phone'></i>
+      <button id="login-button" class="login-button">Login</button>
+    </div>
+
+    <div id="cocktail-section" style="display:none;">
+      <h2>Select Margarita Cocktails</h2>
+      <div id="cocktail-list" class="cocktail-list"></div>
+      <button id="place-order-button" class="order-button">Place Order</button>
+    </div>
+
+    <div id="order-summary-section" style="display:none;">
+      <h2>Your Order</h2>
+      <div id="order-details"></div>
+      <p><strong>Total Price:</strong> <span id="total-price">0</span> KSH</p>
+      <button id="view-orders-button" class="view-button">View All Orders</button>
+    </div>
+
+    <div id="orders-list-section" style="display:none;">
+      <h2>All Orders</h2>
+      <div id="orders-list"></div>
+      <button id="back-button" class="back-button">Back to Order</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <div class="contact-info">
+    <h2>Contact-info</h2>
+    <p class="contact-item">Tel: 0787656789</p>
+    <p class="contact-item">Whatsapp: 0787656789</p>
+    <p class="contact-item">Instagram: @Margarita cocktails Hub</p>
+</div>
+
+</body>
+</html>
